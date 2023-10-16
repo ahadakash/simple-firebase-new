@@ -10,6 +10,13 @@
  * 8. Create teo folder in src > Layout & Components > 
  * Layout > Main.jsx , Components > Header.jsx 
  * Add Header and Layout in Main.jsx such as > <div> <Header/> <layout/> </div>
- * 9. 
+ * 
+ * 9. Go to docs > Build > Authentication > Web > Get started > and follow the steps (number 2 only & then click left side Google  and follow it (number 1, 5))
+ * 10. export app from the firebase.config.js file: 
+ * export default app;
+ * 11. Login.jsx: import getAuth from firebase/auth;
+ * 12. create const auth = getAuth(app);
+ * 13. import googleAuthProvider and create a new provider
+ * 
  * 
 * */
